@@ -11,5 +11,6 @@ git push
 
 ## Pipenv
 python -m pip install pipenv \
-pipenv shell \
-pipenv install
+pipenv shell (Creates new shell) \
+pipenv install (Installs dependencies) \
+pipenv --rm (Removes shell)
