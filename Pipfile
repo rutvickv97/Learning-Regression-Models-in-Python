@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 pandas = "*"
 matplotlib = "*"
 statsmodels = "*"
+numpy = "==1.19.3"
 
 [dev-packages]
 

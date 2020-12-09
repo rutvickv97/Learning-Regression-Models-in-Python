@@ -6,7 +6,7 @@ import statsmodels.api as sm
 import statsmodels.stats as sms #OLS model
 
 # Creating the dataframe for the houseing data
-Housedb = pd.read_csv('/kaggle/input/house-prices-advanced-regression-techniques/housetrain.csv')
+Housedb = pd.read_csv('./datasets/housetrain.csv')
 #looking at the first few rows
 Housedb.head()
 
